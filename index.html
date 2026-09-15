@@ -6,19 +6,19 @@
   <title>我的第一个 GitHub 项目</title>
   <style>
     :root { color-scheme: light; font-family: system-ui, "Microsoft YaHei", sans-serif; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #eef4ff; color: #172033; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: linear-gradient(135deg, #dbeafe, #f0f9ff); color: #172033; }
     main { width: min(680px, calc(100% - 40px)); padding: 40px; background: white; border-radius: 24px; box-shadow: 0 18px 60px rgba(43, 78, 139, .15); }
     h1 { margin-top: 0; font-size: clamp(2rem, 7vw, 3.5rem); line-height: 1.05; }
     p { font-size: 1.08rem; line-height: 1.8; }
     button { border: 0; border-radius: 999px; padding: 14px 22px; background: #2563eb; color: white; font-size: 1rem; cursor: pointer; }
     button:hover { background: #1d4ed8; }
-    #message { min-height: 1.8em; color: #2563eb; font-weight: 700; }
+    #message { min-height: 1.8em; color: #2563eb; font-weight: 700; }\n    .badge { display: inline-block; margin-bottom: 18px; padding: 7px 12px; border-radius: 999px; background: #dbeafe; color: #1e40af; font-size: .92rem; font-weight: 700; }
   </style>
 </head>
 <body>
   <main>
-    <h1>你好，GitHub！</h1>
-    <p>这是 ruoshui777 的第一个练习项目。它先保存在电脑上，再通过 Git 上传到 GitHub。</p>
+    <p class="badge">学习进度：分支练习进行中</p>\n    <h1>你好，GitHub！</h1>
+    <p>这是 ruoshui777 的第一个练习项目。现在我们正在一个独立分支中改进它，主版本仍然安全。</p>
     <button id="helloButton">点我试试</button>
     <p id="message" aria-live="polite"></p>
   </main>
